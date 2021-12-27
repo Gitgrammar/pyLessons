@@ -3,5 +3,6 @@ scores={
         'database':80,
         'security':50
         }
-total =sum(scores.values())
-print(total)
+print(scores['database'])
+del scores['security']
+print(scores)
